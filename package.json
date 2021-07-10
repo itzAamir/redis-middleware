@@ -1,0 +1,32 @@
+{
+    "name": "redis-middleware",
+    "version": "1.0.0",
+    "description": "A redis middleware to hook up into your nodejs application without worrying about code complexity.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --pretty --transpile-only main.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/itzAamir/redis-middleware.git"
+    },
+    "keywords": [
+        "redis",
+        "redis-middleware"
+    ],
+    "author": "itzAamir",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/itzAamir/redis-middleware/issues"
+    },
+    "homepage": "https://github.com/itzAamir/redis-middleware#readme",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/node": "^16.3.1",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.3.5"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
